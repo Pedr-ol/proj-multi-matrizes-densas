@@ -1,0 +1,14 @@
+
+services:
+  ambiente:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: projeto-paralelo
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    ipc: host
+    shm_size: "2gb"
+    stdin_open: true
+    tty: true
