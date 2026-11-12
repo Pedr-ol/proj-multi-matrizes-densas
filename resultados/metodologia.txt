@@ -1,0 +1,15 @@
+Metodologia de medicao
+=====================
+Data: 2026-11-11T00:47:36
+Maquina: bc9aace9144c
+Plataforma: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+Processadores logicos: 8
+Repeticoes (mediana): 3
+Execucoes de aquecimento descartadas: 1
+Tamanhos do baseline: [256, 512, 1024, 2048]
+Tamanhos paralelos: [1024, 2048]
+Threads OpenMP: [1, 2, 4, 8]
+Processos MPI: [1, 2, 4, 8]
+Escalonamentos: ['static', 'dynamic', 'guided']
+Blocos: [32, 64, 128]
+Base da escalabilidade fraca: 512

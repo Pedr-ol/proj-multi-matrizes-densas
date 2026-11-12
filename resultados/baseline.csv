@@ -1,0 +1,5 @@
+N,paralelismo,configuracao,tempo,checksum
+256,Sequencial,1 processo,0.009916,4109165.296000
+512,Sequencial,1 processo,0.071757,32883431.310401
+1024,Sequencial,1 processo,0.904321,263088437.159955
+2048,Sequencial,1 processo,8.919968,2104745207.318985
